@@ -17,9 +17,9 @@ const resHook = require('express-res-hook');
 
 const app = express();
 
-app.use(resHook(function (data) {
+app.use(resHook(function (data, finish) {
     // Your code, this will execute before sending response
-    return data; // If not returned data sent will be empty
+    finish(data);// Needs to be called
 }));
 
 
