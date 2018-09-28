@@ -1,25 +1,24 @@
 {
-  "name": "express-pre-hook",
+  "name": "express-res-hook",
   "version": "1.0.0",
-  "description": "A middleware that gets executed before response is send",
+  "description": "A middleware that gets executed before sending response",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jugnuagrawal/express-pre-hook.git"
+    "url": "git+https://github.com/jugnuagrawal/express-res-hook.git"
   },
   "keywords": [
     "express",
-    "pre-hook",
-    "before",
-    "response"
+    "hook",
+    "before response"
   ],
   "author": "Jugnu Agrawal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jugnuagrawal/express-pre-hook/issues"
+    "url": "https://github.com/jugnuagrawal/express-res-hook/issues"
   },
-  "homepage": "https://github.com/jugnuagrawal/express-pre-hook#readme"
+  "homepage": "https://github.com/jugnuagrawal/express-res-hook#readme"
 }
